@@ -47,7 +47,7 @@ Every *qualified-name* must name an interface type.
 An interface-declaration defines a contract that one or more classes can
 implement.
 
-Interface names are case-insensitive.
+Interface names are not case-sensitive.
 
 The optional *interface-base-clause* specifies the base interfaces from
 which the interface being defined is derived. In such a case, the

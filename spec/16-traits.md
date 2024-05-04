@@ -79,7 +79,7 @@ trait-member-declaration:
 A *trait-declaration* defines a named set of members, which are made
 available to any class that uses that trait.
 
-Trait names are case-insensitive.
+Trait names are not case-sensitive.
 
 The members of a trait are those specified by its *trait-member-declaration*
 clauses, and members imported from any other traits using *trait-use-clauses*.
