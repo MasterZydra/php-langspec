@@ -75,7 +75,7 @@ Note that while definition has a short name, the name known to the engine
 is always the full name, and can be either specified as fully qualified name,
 composed from current namespace name and specified name, or [imported](#namespace-use-declarations).
 
-Namespace and sub-namespace names are case-insensitive.
+Namespace and sub-namespace names are not case-sensitive.
 
 The pre-defined constant [`__NAMESPACE__`](06-constants.md#context-dependent-constants) contains the name of
 the current namespace.

@@ -140,7 +140,7 @@ Compatible arguments are defined as follows:
 **Semantics**
 
 A *class-declaration* defines a class type by the name *name*. Class
-names are case-insensitive.
+names are not case-sensitive.
 
 The `abstract` modifier declares a class usable only as a base class; the
 class cannot be instantiated directly. An abstract class may contain one
@@ -620,7 +620,7 @@ a function that is defined inside a class. However, the presence of
 is provided. The absence of `abstract` indicates a concrete method, in
 which case, an implementation is provided.
 
-Method names are case-insensitive.
+Method names are not case-sensitive.
 
 The presence of `final` indicates the method cannot be overridden in a
 derived class.
